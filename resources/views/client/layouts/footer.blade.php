@@ -3,11 +3,11 @@
         <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
             <a href="" class="text-decoration-none">
                 <h1 class="mb-4 display-5 font-weight-semi-bold"><span
-                        class="text-primary font-weight-bold border border-white px-3 mr-1">Huyhq</span>Shopper</h1>
+                        class="text-primary font-weight-bold border border-white px-3 mr-1">Chien</span>Shopper</h1>
             </a>
 
             <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Ha Noi</p>
-            <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>huyhq@gmail.com</p>
+            <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>nguyenlechien8623@gmail.com</p>
             <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+123456789</p>
         </div>
         <div class="col-lg-8 col-md-12">
@@ -48,10 +48,10 @@
     <div class="row border-top border-light mx-xl-5 py-4">
         <div class="col-md-6 px-xl-0">
             <p class="mb-md-0 text-center text-md-left text-dark">
-                &copy; <a class="text-dark font-weight-semi-bold" href="#">Huyhq Shop</a>. All Rights Reserved.
+                &copy; <a class="text-dark font-weight-semi-bold" href="#">Chien Shop</a>. All Rights Reserved.
                 Designed
                 by
-                <a class="text-dark font-weight-semi-bold" href="https://htmlcodex.com">Huyhq/a>
+                <a class="text-dark font-weight-semi-bold" href="https://htmlcodex.com">Chien</a>
             </p>
         </div>
         <div class="col-md-6 px-xl-0 text-center text-md-right">

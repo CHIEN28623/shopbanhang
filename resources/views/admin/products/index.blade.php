@@ -37,7 +37,7 @@
                         <td>{{ $item->sale }}</td>
                         <td>
                             <a href="{{ route('products.edit', $item->id) }}" class="btn btn-warning">Edit</a>
-                        @endcan
+                        {{-- @endcan --}}
                         @can('show-product')
                             <a href="{{ route('products.show', $item->id) }}" class="btn btn-warning">Show</a>
                         @endcan

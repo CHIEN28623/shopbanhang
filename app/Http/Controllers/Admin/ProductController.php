@@ -7,6 +7,9 @@ use App\Http\Requests\Products\CreateProductRequest;
 use App\Http\Requests\Products\UpdateProductRequest;
 use App\Models\Category;
 use App\Services\ProductService;
+use App\Models\Role;
+
+// use App\Models\Role;
 
 class ProductController extends Controller
 {
@@ -74,6 +77,7 @@ class ProductController extends Controller
      * @param int $id
      * @return \Illuminate\Http\Response
      */
+
     public function edit($id)
     {
         $product = $this->productService->findOrFail($id)->load(['details', 'categories']);
@@ -81,7 +85,19 @@ class ProductController extends Controller
         $categories = $this->category->get(['id', 'name']);
 
         return view('admin.products.edit', compact('categories', 'product'));
-    }
+    }   // public function edit($id)
+    // {
+    //     // Tìm kiếm sản phẩm dựa trên ID và tải các chi tiết và danh mục của sản phẩm
+    //     $product = $this->productService->findOrFail($id)->load(['details', 'categories']);
+
+    //     // Lấy danh sách các danh mục sản phẩm
+    //     $categories = $this->category->get(['id', 'name']);
+
+    //     // Trả về view 'admin.products.edit' kèm theo các biến compact categories và product
+    //     return view('admin.products.edit', compact('categories', 'product'));
+    // }
+
+
 
     /**
      * Update the specified resource in storage.
